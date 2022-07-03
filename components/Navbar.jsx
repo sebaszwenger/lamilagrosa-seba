@@ -59,7 +59,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="flex gap-3 cursor-pointer hover:scale-110 transition-transform ease-in duration-200 ">
+        <div className="flex gap-4 cursor-pointer hover:scale-110 transition-transform ease-in duration-200 items-center">
           <Link href="/">
             <a>
               <MdOutlineLocalGroceryStore
@@ -130,7 +130,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-20">
-              <p className="uppercase mb-2 tracking-widest text-blue-500 text-center font-semibold">
+              <p className="uppercase mb-2 tracking-widest text-blue-500 text-center font-semibold text-sm">
                 Seguinos En Nuestras Redes
               </p>
               <div className="flex items-center justify-between mx-auto py-4">

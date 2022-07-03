@@ -43,16 +43,16 @@ const Footer = () => {
       <div className="bg-white pt-3">
         <div className="w-full pt-5">
           <div className="flex justify-center gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16">
-            <div className="bg-gray-200 rounded-full shadow-md shadow-gray-800 p-2 cursor-pointer flex ease-in duration-100 hover:bg-blue-500">
+            <div className="bg-white rounded-full shadow-md shadow-gray-800 p-2 cursor-pointer flex ease-in duration-100 hover:bg-blue-500">
               <FaFacebook size="20px" />
             </div>
-            <div className="bg-gray-200 rounded-full shadow-md shadow-gray-800 p-2 cursor-pointer flex ease-in duration-100 hover:bg-blue-500">
+            <div className="bg-white rounded-full shadow-md shadow-gray-800 p-2 cursor-pointer flex ease-in duration-100 hover:bg-blue-500">
               <AiFillInstagram size="20px" />
             </div>
-            <div className="bg-gray-200 rounded-full shadow-md shadow-gray-800 p-2 cursor-pointer flex ease-in duration-100 hover:bg-blue-500">
+            <div className="bg-white rounded-full shadow-md shadow-gray-800 p-2 cursor-pointer flex ease-in duration-100 hover:bg-blue-500">
               <FaTwitter size="20px" />
             </div>
-            <div className="bg-gray-200 rounded-full shadow-md shadow-gray-800 p-2 cursor-pointer flex ease-in duration-100 hover:bg-blue-500">
+            <div className="bg-white rounded-full shadow-md shadow-gray-800 p-2 cursor-pointer flex ease-in duration-100 hover:bg-blue-500">
               <FaYoutube size="20px" />
             </div>
           </div>
