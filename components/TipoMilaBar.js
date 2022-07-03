@@ -10,7 +10,7 @@ const TipoMila = () => {
   return (
     <>
       <div className="sticky w-full h-auto bg-blue-600 top-20 z-[800] shadow-md shadow-gray-600">
-        <ul className="flex justify-center items-center p-3 gap-x-5 text-white text-sm tracking-wide md:gap-x-7 lg:gap-x-8 xl:gap-x-10 2xl:gap-x-12">
+        <ul className="flex justify-center items-center p-3 gap-x-5 text-white text-xs md:text-sm md:tracking-wide md:gap-x-7 lg:gap-x-8 xl:gap-x-10 2xl:gap-x-12">
           <li onClick={handleSeleccion}>
             <p
               className={`cursor-pointer hover:border-b border-b-white ${

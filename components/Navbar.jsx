@@ -116,10 +116,7 @@ const Navbar = () => {
               <Link href="/">
                 <li className="mb-8 text-sm cursor-pointer">Inicio</li>
               </Link>
-              <Link href="/">
-                <li className="mb-8 text-sm cursor-pointer">Mi Cuenta</li>
-              </Link>
-              <Link href="/">
+              <Link href="/menu">
                 <li className="mb-8 text-sm cursor-pointer">Menu</li>
               </Link>
               <Link href="/">
@@ -132,21 +129,21 @@ const Navbar = () => {
                 <li className="mb-8 text-sm cursor-pointer">Contacto</li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-20">
               <p className="uppercase mb-2 tracking-widest text-blue-500 text-center font-semibold">
                 Seguinos En Nuestras Redes
               </p>
               <div className="flex items-center justify-between mx-auto py-4">
-                <div className="rounded-full bg-gray-200 hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
+                <div className="rounded-full bg-white hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
                   <FaFacebook size="20px" />
                 </div>
-                <div className="rounded-full bg-gray-200 hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
+                <div className="rounded-full bg-white hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
                   <AiFillInstagram size="20px" />
                 </div>
-                <div className="rounded-full bg-gray-200 hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
+                <div className="rounded-full bg-white hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
                   <FaTwitter size="20px" />
                 </div>
-                <div className="rounded-full bg-gray-200 hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
+                <div className="rounded-full bg-white hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
                   <FaYoutube size="20px" />
                 </div>
               </div>
