@@ -15,20 +15,20 @@ const Navbar = () => {
   return (
     <div className="sticky w-full h-20 z-[900] top-0 shadow-lg bg-white">
       <div className="max-w-[85%] mx-auto flex justify-between items-center w-full h-full ">
-        <div>
-          <Link href="/">
-            <a>
-              <Image
-                layout="fixed"
-                width="130"
-                height="80"
-                src="/img/logo-LaMilaGrosa-final.png"
-                alt="logo"
-                className="cursor-pointer hover:scale-105"
-              />
-            </a>
-          </Link>
-        </div>
+        {/* <div> */}
+        <Link href="/">
+          <a className="pt-1">
+            <Image
+              layout="fixed"
+              width="130"
+              height="80"
+              src="/img/logo-LaMilaGrosa-final.png"
+              alt="logo"
+              className="cursor-pointer hover:scale-105"
+            />
+          </a>
+        </Link>
+        {/* </div> */}
 
         <div>
           <ul className="hidden md:flex cursor-pointer md:gap-x-4 md:text-sm lg:gap-x-6 xl:gap-x-10 2xl:gap-x-16 uppercase">
