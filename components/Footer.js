@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 import { AiFillInstagram } from "react-icons/ai";
-import { FaFacebook, FaYoutube, FaTwitter } from "react-icons/Fa";
+import { FaFacebook, FaYoutube, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (

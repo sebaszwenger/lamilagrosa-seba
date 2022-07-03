@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { MdOutlineLocalGroceryStore } from "react-icons/Md";
+import { MdOutlineLocalGroceryStore } from "react-icons/md";
 import { AiOutlineMenu, AiOutlineClose, AiFillInstagram } from "react-icons/ai";
-import { FaFacebook, FaYoutube, FaTwitter } from "react-icons/Fa";
+import { FaFacebook, FaYoutube, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
