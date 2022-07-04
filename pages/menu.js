@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import MenuList from "../components/MenuList";
-import TipoMilaBar from "../components/TipoMilaBar";
+import ProductList from "../components/ProductList";
 
 const carta = [
   {
@@ -234,15 +232,7 @@ const carta = [
 ];
 
 const menu = () => {
-  return (
-    <div className="w-full">
-      <p className="text-center py-8 text-2xl md:text-3xl xl:text-4xl font-semibold tracking-wide ">
-        Nuestros Productos
-      </p>
-      <TipoMilaBar />
-      <MenuList menuList={carta} />
-    </div>
-  );
+  return <ProductList carta={carta} />;
 };
 export default menu;
 
