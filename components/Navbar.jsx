@@ -31,7 +31,7 @@ const Navbar = () => {
         {/* </div> */}
 
         <div>
-          <ul className="hidden md:flex cursor-pointer md:gap-x-4 md:text-sm lg:gap-x-6 xl:gap-x-10 2xl:gap-x-16 uppercase">
+          <ul className="hidden md:flex cursor-pointer md:gap-x-4 md:text-sm lg:gap-x-6 lg:text-base xl:gap-x-10 2xl:gap-x-16 uppercase">
             <Link href="/">
               <li className=" hover:border-b hover:border-blue-400">Inicio</li>
             </Link>
@@ -112,28 +112,28 @@ const Navbar = () => {
           </div>
 
           <div className="pl-4 mt-16 flex flex-col">
-            <ul className="uppercase">
+            <ul className="uppercase text-md">
               <Link href="/">
-                <li className="mb-8 text-sm cursor-pointer">Inicio</li>
+                <li className="mb-8 cursor-pointer">Inicio</li>
               </Link>
               <Link href="/menu">
-                <li className="mb-8 text-sm cursor-pointer">Menu</li>
+                <li className="mb-8 cursor-pointer">Menu</li>
               </Link>
               <Link href="/">
-                <li className="mb-8 text-sm cursor-pointer">Nosotros</li>
+                <li className="mb-8 cursor-pointer">Nosotros</li>
               </Link>
               <Link href="/">
-                <li className="mb-8 text-sm cursor-pointer">Locales</li>
+                <li className="mb-8 cursor-pointer">Locales</li>
               </Link>
               <Link href="/">
-                <li className="mb-8 text-sm cursor-pointer">Contacto</li>
+                <li className="mb-8 cursor-pointer">Contacto</li>
               </Link>
             </ul>
-            <div className="pt-20">
+            <div className="pt-10">
               <p className="uppercase mb-2 tracking-widest text-blue-500 text-center font-semibold text-sm">
                 Seguinos En Nuestras Redes
               </p>
-              <div className="flex items-center justify-between mx-auto py-4">
+              <div className="flex items-center justify-around mx-auto py-4">
                 <div className="rounded-full bg-white hover:bg-blue-500 shadow-md shadow-gray-800 p-3 cursor-pointer flex hover:scale-105 ease-in duration-300">
                   <FaFacebook size="20px" />
                 </div>

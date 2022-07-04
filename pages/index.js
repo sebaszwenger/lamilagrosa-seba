@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Articulo1 from "../components/Articulo1";
 import Carrusel from "../components/Carrusel";
 
 const images = [
@@ -150,11 +151,12 @@ export default function Home() {
 
       <Carrusel
         controles={true}
-        autoplay={true}
+        autoplay={false}
         velocidad="700"
         intervalo="4500"
         images={images}
       />
+      <Articulo1 />
     </div>
   );
 }

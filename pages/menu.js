@@ -235,8 +235,8 @@ const carta = [
 
 const menu = () => {
   return (
-    <div>
-      <p className="text-center p-3 text-2xl font-semibold tracking-wide ">
+    <div className="w-full">
+      <p className="text-center py-8 text-2xl md:text-3xl xl:text-4xl font-semibold tracking-wide ">
         Nuestros Productos
       </p>
       <TipoMilaBar />
